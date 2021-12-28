@@ -44,27 +44,27 @@ export class App extends Component {
           />
           <Navbar />
           <Routes>
-            <Route exact path="/" element={<News apiKey={this.apiKey} updateProgress={this.updateProgress} key="general" pageSize={this.pageSize} category="general" />}>
+            <Route exact path="/News-Kindle" element={<News apiKey={this.apiKey} updateProgress={this.updateProgress} key="general" pageSize={this.pageSize} category="general" />}>
 
 
             </Route>
-            <Route exact path="/science" element={<News apiKey={this.apiKey} updateProgress={this.updateProgress} key="science" pageSize={this.pageSize} category="science" />}>
+            <Route exact path="/News-Kindle/science" element={<News apiKey={this.apiKey} updateProgress={this.updateProgress} key="science" pageSize={this.pageSize} category="science" />}>
 
 
             </Route>
-            <Route exact path="/technology" element={<News apiKey={this.apiKey} updateProgress={this.updateProgress} key="technology" pageSize={this.pageSize} category="technology" />}>
+            <Route exact path="/News-Kindle/technology" element={<News apiKey={this.apiKey} updateProgress={this.updateProgress} key="technology" pageSize={this.pageSize} category="technology" />}>
 
 
             </Route>
-            <Route exact path="/business" element={<News apiKey={this.apiKey} updateProgress={this.updateProgress} key="business" pageSize={this.pageSize} category="business" />}>
+            <Route exact path="/News-Kindle/business" element={<News apiKey={this.apiKey} updateProgress={this.updateProgress} key="business" pageSize={this.pageSize} category="business" />}>
 
 
             </Route>
-            <Route exact path="/health" element={<News apiKey={this.apiKey} updateProgress={this.updateProgress} key="health" pageSize={this.pageSize} category="health" />}>
+            <Route exact path="/News-Kindle/health" element={<News apiKey={this.apiKey} updateProgress={this.updateProgress} key="health" pageSize={this.pageSize} category="health" />}>
 
 
             </Route>
-            <Route exact path="/entertainment" element={<News apiKey={this.apiKey} updateProgress={this.updateProgress} key="entertainment" pageSize={this.pageSize} category="entertainment" />}>
+            <Route exact path="/News-Kindle/entertainment" element={<News apiKey={this.apiKey} updateProgress={this.updateProgress} key="entertainment" pageSize={this.pageSize} category="entertainment" />}>
 
 
             </Route>
